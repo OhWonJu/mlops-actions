@@ -23,7 +23,6 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
         image: zoody/mlops-actions-app
-
         tags: v2 latest
         registry: docker.io
         username: ${{ secrets.DOCKER_USERNAME }}
